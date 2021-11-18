@@ -1,0 +1,6 @@
+{
+    "version": "1.0",
+    "url": "https://api.roccat-neon.com/device/Support/Software/Download/244/ROCCAT-Swarm.zip",
+    "extract_dir": "ROCCAT Swarm_v19398.exe",
+    "bin": "ROCCAT Swarm_v19398.exe"
+  }
