@@ -1,6 +1,5 @@
 {
     "version": "1.0",
     "url": "https://e3.boxcdn.net/box-installers/desktop/releases/win/Box-x64.msi",
-    "extract_dir": "box.exe",
     "bin": "box.exe"
 }
