@@ -1,49 +1,36 @@
-
-
-
-
-
-C:\Users\janho\scoop\apps\vscode\current\install-context.reg
-
 # Include buckets
-scoop bucket add extras
-scoop bucket add nonportable
+scoop bucket add extras nonportable
+
+scoop bucket add mybucket https://github.com/JaxRaffnix/Powershell-scoop.git
 
 # Coding
-scoop install vscode
-scopp install windows-terminal
+scoop install vscode windows-terminal
 
 # helpers
-scoop install git
-scopp install keepass
-scoop install 7zip
-scoop install treesize-free
-scopp install aimp
-scoop install nvidia-display-driver-np
-scoop install restic
+scoop install git keepass 7zip treesize-free nvidia-display-driver-np restic
 
 # Languages
-scopp install python
-scopp install miktex
+scopp install python miktex msys2
 
 # Communication
-scoop install thunderbird
-scoop install whatsapp
-scoop install signal
-scoop install microsoft-teams
-scoop install zoom
-scoop install discord
+scoop install thunderbird whatsapp signal microsoft-teams zoom discord
 
 # Office
-scoop install googlechrome
-scoop install office-365-apps-minimal-np
-scoop install nextcloud
-scoop install spotify
+scoop install googlechrome office-365-apps-minimal-np nextcloud spotify aimp
 
 # Games
-scoop install playnite
-scoop install steam
-scoop install ubisoftconnect
+scoop install playnite steam ubisoftconnect
+
+# MyBucket
+scoop install roccat-swarm epic-games
+
+# Manual
+Start-Process https://e3.boxcdn.net/box-installers/desktop/releases/win/Box-x64.msi
+
+Start-Process https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+
+Start-Process https://tools.pdf24.org/de/creator
 
 # Missing
-# box, epic games, onenote, pdf24, roccat swarm, 
+# onenote, adobe reader
+# battle.net?, kod?
